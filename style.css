@@ -30,11 +30,21 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
+
+     & button {
+        font-weight: 600;
+        font-size: 16px;
+     }
 }
 
 .package_box:nth-child(2){
     background-color: #483ED6;
     position: relative;
+    color: #fff;
+    & button {
+        background-color: #FACC15;
+        color: #000;
+    }
 }
 
 .package_box:nth-child(2)::after{
@@ -53,6 +63,8 @@
     top: 0px;
     transform: translate(-50%, -50%);
     background-color: #FACC15;
+    color: #000;
+
 }
 
 .package_box:hover{
